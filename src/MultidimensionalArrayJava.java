@@ -7,15 +7,18 @@ public class MultidimensionalArrayJava {
         multidimensionalArrayJava[0][1] = 3;
         multidimensionalArrayJava[1][1] = 4;
 
-//        System.out.println(multidimensionalArrayJava[1][1]);
-//
-//        for (int i = 0; i < multidimensionalArrayJava.length; i++) {
-//            for (int j = 0; j < multidimensionalArrayJava[i].length; j++)
-//            System.out.println(multidimensionalArrayJava[i][j]);
-//        }
+//        print hardcode
+        System.out.println(multidimensionalArrayJava[1][1]);
 
+//        print using for
+        for (int i = 0; i < multidimensionalArrayJava.length; i++) {
+            for (int j = 0; j < multidimensionalArrayJava[i].length; j++)
+                System.out.println(multidimensionalArrayJava[i][j]);
+        }
+
+//        print using for each
         for (int[] ref : multidimensionalArrayJava) {
-            for (int numbers : ref){
+            for (int numbers : ref) {
                 System.out.println(numbers);
             }
 
