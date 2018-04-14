@@ -1,3 +1,5 @@
+package br.com.abc.intro;
+
 public class NewArray {
     public static void main(String[] args) {
         int[] array = new int[3];

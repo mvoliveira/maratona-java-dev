@@ -1,3 +1,5 @@
+package br.com.abc.intro;
+
 public class MultidimensionalArrayJava {
     public static void main(String[] args) {
         int[][] multidimensionalArrayJava = new int[2][2];

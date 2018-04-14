@@ -1,3 +1,5 @@
+package br.com.abc.intro;
+
 public class WorkingDay {
     public static void main(String[] args) {
         byte day = 3;

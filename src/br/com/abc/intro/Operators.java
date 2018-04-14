@@ -1,3 +1,5 @@
+package br.com.abc.intro;
+
 public class Operators {
     public static void main(String[] args) {
         int firstNumber = 10;

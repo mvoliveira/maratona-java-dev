@@ -1,3 +1,5 @@
+package br.com.abc.intro;
+
 public class TernaryOperator {
     public static void main(String[] args) {
         int age = 18;

@@ -1,3 +1,5 @@
+package br.com.abc.intro;
+
 public class EvenNumbers {
     public static void main(String[] args) {
         int length = 100000;

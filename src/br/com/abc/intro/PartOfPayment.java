@@ -1,3 +1,5 @@
+package br.com.abc.intro;
+
 public class PartOfPayment {
     public static void main(String[] args) {
         double value = 30000;

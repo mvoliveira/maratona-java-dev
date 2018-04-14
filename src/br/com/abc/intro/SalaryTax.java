@@ -1,3 +1,5 @@
+package br.com.abc.intro;
+
 public class SalaryTax {
     public static void main(String[] args) {
         double salary = 5001;

@@ -1,3 +1,5 @@
+package br.com.abc.intro;
+
 public class DependencyReport {
     public static void main(String[] args) {
         int phoneNumber = 34804931;
