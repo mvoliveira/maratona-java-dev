@@ -5,6 +5,12 @@ public class EmptyArray {
         System.out.println(emptyArrayInts[0]);
         System.out.println(emptyArrayInts[1]);
         System.out.println(emptyArrayInts[2]);
+
+        String[] emptyArrayString = new String[3];
+
+        System.out.println(emptyArrayString[0]);
+        System.out.println(emptyArrayString[1]);
+        System.out.println(emptyArrayString[2]);
     }
 }
 
