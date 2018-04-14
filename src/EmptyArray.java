@@ -18,6 +18,12 @@ public class EmptyArray {
         System.out.println(emptyArrayChar[0]);
         System.out.println(emptyArrayChar[1]);
         System.out.println(emptyArrayChar[2]);
+
+        boolean[] emptyArrayBoolean = new boolean[3];
+
+        System.out.println(emptyArrayBoolean[0]);
+        System.out.println(emptyArrayBoolean[1]);
+        System.out.println(emptyArrayBoolean[2]);
     }
 }
 
