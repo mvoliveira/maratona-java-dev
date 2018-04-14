@@ -12,4 +12,8 @@ public class Calculadora {
     public void multiplyTwoNumbers(int firstNumber, int secondNumber){
         System.out.println(firstNumber*secondNumber);
     }
+
+    public double divideTwoNumbers(int firtsNumber, int secondNumber){
+        return firtsNumber / secondNumber;
+    }
 }
