@@ -13,6 +13,11 @@ public class EmptyArray {
         System.out.println(emptyArrayString[1]);
         System.out.println(emptyArrayString[2]);
 
+        char[] emptyArrayChar = new char[3];
+
+        System.out.println(emptyArrayChar[0]);
+        System.out.println(emptyArrayChar[1]);
+        System.out.println(emptyArrayChar[2]);
     }
 }
 
