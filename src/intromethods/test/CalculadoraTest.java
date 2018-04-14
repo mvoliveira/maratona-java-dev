@@ -8,5 +8,6 @@ public class CalculadoraTest {
         calculadora.addTwoNumbers();
         calculadora.subtractTwoNumbers();
         calculadora.multiplyTwoNumbers(5,5);
+        System.out.println(calculadora.divideTwoNumbers(20,2));
     }
 }
