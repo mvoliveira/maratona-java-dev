@@ -1,6 +1,6 @@
 public class WorkingDay {
     public static void main(String[] args) {
-        byte day = 3 ;
+        byte day = 3;
         switch (day) {
             case 1:
             case 7:
