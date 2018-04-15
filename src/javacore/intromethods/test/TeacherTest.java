@@ -9,14 +9,14 @@ public class TeacherTest {
         marco.rg = "13123.123.35-2";
         marco.registration = 156651;
         marco.cpf = 1233;
-        marco.printTeacher(marco);
+        marco.printTeacher();
 
         Teacher carol= new Teacher();
         carol.name = "carol";
         carol.rg = "134553.123.35-2";
         carol.registration = 5546;
         carol.cpf = 623;
-        carol.printTeacher(carol);
+        carol.printTeacher();
     }
 }
 

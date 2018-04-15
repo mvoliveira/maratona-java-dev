@@ -6,10 +6,10 @@ public class Teacher {
     public int registration;
     public int cpf;
 
-    public void printTeacher(Teacher teacher) {
-        System.out.println(teacher.name);
-        System.out.println(teacher.rg);
-        System.out.println(teacher.registration);
-        System.out.println(teacher.cpf);
+    public void printTeacher() {
+        System.out.println(this.name);
+        System.out.println(this.rg);
+        System.out.println(this.registration);
+        System.out.println(this.cpf);
     }
 }
