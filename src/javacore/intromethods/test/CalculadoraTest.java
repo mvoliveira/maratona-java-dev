@@ -1,6 +1,6 @@
-package intromethods.test;
+package javacore.intromethods.test;
 
-import intromethods.classes.Calculadora;
+import javacore.intromethods.classes.Calculadora;
 
 public class CalculadoraTest {
     public static void main(String[] args) {

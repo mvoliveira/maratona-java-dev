@@ -1,4 +1,4 @@
-package javacore.introducaoclasses.classes;
+package javacore.introclasses.classes;
 
 public class Car {
     public String plate;

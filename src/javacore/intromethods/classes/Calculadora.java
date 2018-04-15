@@ -1,4 +1,4 @@
-package intromethods.classes;
+package javacore.intromethods.classes;
 
 public class Calculadora {
     public void addTwoNumbers() {

@@ -1,4 +1,4 @@
-package javacore.introducaoclasses.classes;
+package javacore.introclasses.classes;
 
 public class Student {
     public String name;

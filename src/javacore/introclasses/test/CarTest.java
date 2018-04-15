@@ -1,6 +1,6 @@
-package javacore.introducaoclasses.test;
+package javacore.introclasses.test;
 
-import javacore.introducaoclasses.classes.Car;
+import javacore.introclasses.classes.Car;
 
 public class CarTest {
 
