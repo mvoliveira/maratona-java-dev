@@ -19,4 +19,14 @@ public class Calculadora {
         }
         return 0;
     }
+
+    public void changeTwoNumbers(int firstNumber, int secondNumber){
+        firstNumber = 10;
+        secondNumber = 20;
+
+        System.out.println("Dentro do altera dois números");
+        System.out.println("Primeiro número: " + firstNumber);
+        System.out.println("Segundo número: " + secondNumber);
+    }
+
 }
