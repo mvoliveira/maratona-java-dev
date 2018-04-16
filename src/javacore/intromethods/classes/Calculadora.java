@@ -20,7 +20,7 @@ public class Calculadora {
         return 0;
     }
 
-    public void changeTwoNumbers(int firstNumber, int secondNumber){
+    public void changeTwoNumbers(int firstNumber, int secondNumber) {
         firstNumber = 10;
         secondNumber = 20;
 
@@ -29,4 +29,12 @@ public class Calculadora {
         System.out.println("Segundo número: " + secondNumber);
     }
 
+    public void addNNumbers(int[] nNumbers) {
+        int result = 0;
+        for (int nNumber :
+                nNumbers) {
+            result += nNumber;
+        }
+        System.out.println(result);
+    }
 }
