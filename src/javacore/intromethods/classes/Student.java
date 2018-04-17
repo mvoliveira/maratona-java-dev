@@ -40,6 +40,10 @@ public class Student {
     }
 
     public void setAge(int age){
+        if(age < 0){
+            System.out.println("Você não pode ter menos que 0 anos.");
+            return;
+        }
         this.age = age;
     }
 
