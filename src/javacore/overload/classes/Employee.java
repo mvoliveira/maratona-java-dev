@@ -13,9 +13,7 @@ public class Employee {
     }
 
     public void init(String name, int age, double salary, int rg){
-        this.name = name;
-        this.age= age;
-        this.salary = salary;
+        init(name, age, salary);
         this.rg = rg;
 
     }
