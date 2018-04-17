@@ -6,7 +6,7 @@ public class EmployeeTest {
     public static void main(String[] args) {
         Employee cleomar = new Employee();
 
-        cleomar.init("Cleomaree", 58, 4000);
+        cleomar.init("Cleomaree", 58, 4000, 1273738);
         cleomar.print();
     }
 }

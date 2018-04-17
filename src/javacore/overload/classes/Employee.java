@@ -4,6 +4,7 @@ public class Employee {
     private String name;
     private int age;
     private double salary;
+    private int rg;
 
     public void init(String name, int age, double salary){
         this.name = name;
@@ -11,10 +12,19 @@ public class Employee {
         this.salary = salary;
     }
 
+    public void init(String name, int age, double salary, int rg){
+        this.name = name;
+        this.age= age;
+        this.salary = salary;
+        this.rg = rg;
+
+    }
+
     public void print(){
         System.out.println(this.name);
         System.out.println(this.age);
         System.out.println(this.salary);
+        System.out.println(this.rg);
     }
 
     public void setName(String name) {
@@ -41,4 +51,11 @@ public class Employee {
         return salary;
     }
 
+    public void setRg(int rg){
+        this.rg = rg;
+    }
+
+    public int getRg(){
+        return rg;
+    }
 }
