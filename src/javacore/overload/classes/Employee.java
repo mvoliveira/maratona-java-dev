@@ -11,6 +11,12 @@ public class Employee {
         this.salary = salary;
     }
 
+    public void print(){
+        System.out.println(this.name);
+        System.out.println(this.age);
+        System.out.println(this.salary);
+    }
+
     public void setName(String name) {
         this.name = name;
     }
