@@ -7,8 +7,6 @@ public class EmployeeTest {
         Employee cleomar = new Employee();
 
         cleomar.init("Cleomaree", 58, 4000);
-        System.out.println(cleomar.getName());
-        System.out.println(cleomar.getAge());
-        System.out.println(cleomar.getSalary());
+        cleomar.print();
     }
 }
