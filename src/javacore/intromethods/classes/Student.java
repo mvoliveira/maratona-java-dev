@@ -4,7 +4,7 @@ public class Student {
 
     private String name;
     private int age;
-    private double[] assessments;
+    public double[] assessments;
 
     public void printStudent() {
         System.out.println("Nome: " + this.name);
@@ -43,7 +43,19 @@ public class Student {
         this.age = age;
     }
 
-    public void setAssessments(double[] assessments){
+    public void setAssessments(double[] assessments) {
         this.assessments = assessments;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+
+    public int getAge(){
+        return this.age;
+    }
+
+    public double[] getAssessments(){
+        return this.assessments;
     }
 }
