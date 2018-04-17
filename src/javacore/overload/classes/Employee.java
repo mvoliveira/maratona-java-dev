@@ -5,12 +5,6 @@ public class Employee {
     private int age;
     private double salary;
 
-    public void init(String name, int age, double salary){
-        this.name = name;
-        this.age= age;
-        this.salary = salary;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
