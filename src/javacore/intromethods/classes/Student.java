@@ -4,7 +4,8 @@ public class Student {
 
     private String name;
     private int age;
-    public double[] assessments;
+    private double[] assessments;
+    private boolean approved;
 
     public void printStudent() {
         System.out.println("Nome: " + this.name);
@@ -29,18 +30,20 @@ public class Student {
         average = average / this.assessments.length;
         System.out.println("A média é: " + average);
         if (average > 6) {
+            this.approved = true;
             System.out.println("O aluno foi aprovado");
         } else {
+            this.approved = false;
             System.out.println("O aluno foi reprovado");
         }
     }
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 
-    public void setAge(int age){
-        if(age < 0){
+    public void setAge(int age) {
+        if (age < 0) {
             System.out.println("Você não pode ter menos que 0 anos.");
             return;
         }
@@ -51,15 +54,19 @@ public class Student {
         this.assessments = assessments;
     }
 
-    public String getName(){
+    public String getName() {
         return this.name;
     }
 
-    public int getAge(){
+    public int getAge() {
         return this.age;
     }
 
-    public double[] getAssessments(){
+    public double[] getAssessments() {
         return this.assessments;
+    }
+
+    public boolean isApproved() {
+        return this.approved;
     }
 }
